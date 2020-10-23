@@ -56,7 +56,7 @@ export default class Clock extends Component {
           onClick={this.handleClick}
           style={{ padding: "5px 10px", fontSize: "1rem" }}
         >
-          {this.state.dateIsFunction ? "CLASS" : "FUNCTION"}+
+          {this.state.dateIsFunction ? "CLASS" : "FUNCTION"}
         </button>
       </div>
     );
